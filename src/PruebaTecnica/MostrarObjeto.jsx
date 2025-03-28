@@ -4,17 +4,17 @@ function MostrarObjeto() {
   const [mostrar, setMostrar] = useState(false);
   
   const persona = {
-    nombre: "María González",
-    edad: 28,
-    profesion: "Desarrolladora Frontend",
-    hobbies: ["Leer", "Pintar", "Viajar"],
+    nombre: "Juan Velez",
+    edad: 20,
+    profesion: "Desarrollador Software",
+    hobbies: ["Estudiar", "Programar", "Leer"],
     direccion: {
       calle: "Calle Principal 123",
-      ciudad: "Ciudad de México",
-      pais: "México"
+      ciudad: "Bogota",
+      pais: "Colombia"
     }
   };
-
+  
   return (
     <div style={{ padding: '20px' }}>
       <h2>Mostrar Datos de Objeto</h2>
